@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Monserrat", sans-serif;
+}
+
+#container {
+    background: url('../images/background.jpg') no-repeat center;
+    background: cover;
+    height: 100vh;
+
+}
+
+#weather-box {
+    width: 700px;
+    height: 80vh;
+    margin: auto auto;
+    box-shadow: 20px 20px 20px #808080;
+    border-radius: 20px;
+    border: 1px solid black;
+    /* background img */
+
+    background: url('../images/tło.png') center no-repeat;
+    background: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav ul {
+    margin-top: 100px;
+
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background-color: rgb(90, 38, 90);
+    margin-bottom: 20px;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 10px;
+    font-size: 26px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    opacity: 0.80;
+    color: #000;
+
+}
+
+nav ul li a:hover {
+    opacity: 1;
+}
+
+#city-name {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+
+}
+
+.time-of-day {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#weather-day {
+    width: 300px;
+    height: 400px;
+    flex-basis: 40%;
+}
+
+#weather-day-content,
+#weather-night-content {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 25px;
+}
+
+#weather-night {
+    width: 300px;
+    height: 400px;
+    flex-basis: 40%;
+
+}
+
+.btn {
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    padding: 20px 50px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    background-color: #27debf;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #27debf;
+    border: none;
+}
+
+.btn:active {
+    border: none;
+}
